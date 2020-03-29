@@ -28,7 +28,7 @@
     title:{
       text:"cookie_fzx",
       link:"https://blog.csdn.net/image_fzx",
-      subtext:"做工作---work hard!!!!",
+      subtext:"疫情期间找工作---work hard!!!!",
       sublink:"https://blog.csdn.net/image_fzx"
     },
     series:[{
@@ -101,7 +101,7 @@
   };
 
   export default {
-    name: 'HelloWorld',
+    name: 'ChinaMap',
     mounted() {
       this.getData();// 为什么不再created
       this.mychart = echarts.init(this.$refs.mapbox);
